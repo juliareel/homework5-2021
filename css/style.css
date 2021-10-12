@@ -60,9 +60,13 @@ nav a{
   color: black;
   font-weight: bold;
   /* Requirement 1 code here*/
+  text-decoration: none;
 }
 
   /* Requirement 2 code here*/
+nav a:hover{
+  text-decoration: underline;
+}
 
 
 
@@ -76,13 +80,19 @@ nav a{
 
   /* Requirement 3a code here*/
   
+  position: absolute;
+  top: -40px;
 }
 
 /* Requirement 3b code here*/
-
+.skip a:focus {
+  top: 0;
+}
 
 /* Requirement 4 code here*/
-
+body:focus-within{
+  border-width: 2px;
+}
 
 
 .container{
